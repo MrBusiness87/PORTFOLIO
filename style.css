@@ -2,11 +2,6 @@ body {
   background-color: lightgreen;
 }
 
-.container {
-  max-width: 1200px;
-  min-width: 400px;
-}
-
 .weather {
   font-size: 20px;
 }
@@ -17,9 +12,13 @@ body {
   margin: 0px;
 }
 
+.card-panel {
+  height: 300px;
+}
+
 .profile {
-  width: 150px;
-  height: 100px;
+  width: 200px;
+  height: 150px;
   border: 1 px black solid;
   margin-left: 10px;
 }
@@ -30,4 +29,17 @@ footer {
   position: fixed;
   bottom: 0;
   width: 100%;
+}
+
+/* THIS IS WHAT MAKES THINGS HAPPEN AT A PARTICULAR WIDTH */
+@media (max-width: 40em) {
+  .climate {
+    display: none;
+  }
+}
+
+@media (max-width: 40em) {
+  .card-panel {
+    font-size: 2.75vw;
+  }
 }
