@@ -1,0 +1,33 @@
+body {
+  background-color: lightgreen;
+}
+
+.container {
+  max-width: 1200px;
+  min-width: 400px;
+}
+
+.weather {
+  font-size: 20px;
+}
+
+#wicon {
+  width: 30px;
+  height: 30px;
+  margin: 0px;
+}
+
+.profile {
+  width: 150px;
+  height: 100px;
+  border: 1 px black solid;
+  margin-left: 10px;
+}
+
+footer {
+  text-align: center;
+  font-size: 12px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
