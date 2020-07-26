@@ -1,48 +1,100 @@
+* {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.wrapper {
+  display: none;
+}
+
+.card {
+  background-color: darkslateblue;
+  margin: auto;
+}
+
+.navbar {
+  margin: auto;
+  background: darkslateblue;
+  width: 80%;
+  border-radius: 20px;
+}
+
+img {
+  padding-top: 6px;
+  padding-left: 4px;
+}
+
+button {
+  color: white;
+  background-color: darkslateblue;
+  width: 100px;
+  font-size: 24px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 40px 0px cyan;
+  float: right;
+  line-height: 80%;
+}
+
 body {
-  background-color: lightgreen;
+  margin: auto;
+  margin-top: 10px;
+  max-width: 1500px;
+  background-color: black;
 }
 
-.weather {
-  font-size: 20px;
-  font-weight: 600;
-}
-
-#wicon {
-  width: 30px;
-  height: 30px;
-  margin: 0px;
-}
-
-.card-panel {
-  font-size: 20px;
-  height: 300px;
-}
-
-.profile {
-  width: 350px;
-  border: 1 px black solid;
-  margin-left: 10px;
-}
-
-footer {
+h1 {
+  color: white;
   text-align: center;
-  font-size: 12px;
+}
+
+.column {
+  text-align: center;
+}
+
+.column img {
+  width: 300px;
+  height: 150px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border: 0;
+  border-radius: 20px;
+  box-shadow: 0px 0px 40px 0px green;
+}
+
+.footer {
   position: fixed;
   bottom: 0;
-  width: 100%;
+  width: 65%;
 }
 
-/* THIS IS WHAT MAKES THINGS HAPPEN AT A WIDTH OF 40EM OR MOBILE SCREENS */
-@media (max-width: 40em) {
-  .climate {
+/* WHERE THINGS SHRINK */
+@media (max-width: 1500px) {
+  .card {
+    max-width: 80%;
+  }
+
+  img {
+    width: 40%;
+  }
+
+  .footer {
+    margin-left: 140px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .card {
+    max-width: 80%;
+  }
+
+  .footer {
+    margin-left: 95px;
+  }
+}
+
+@media (max-width: 500px) {
+
+  h1,
+  .row {
     display: none;
-  }
-
-  .card-panel {
-    font-size: 12px;
-  }
-
-  .profile {
-    width: 100px;
   }
 }
