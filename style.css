@@ -16,6 +16,8 @@
   background: darkslateblue;
   width: 80%;
   border-radius: 20px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 30px 0px cyan;
 }
 
 img {
@@ -29,12 +31,13 @@ button {
   width: 100px;
   font-size: 24px;
   border-radius: 20px;
-  box-shadow: 0px 0px 40px 0px cyan;
+  box-shadow: 0px 0px 20px 0px cyan;
   float: right;
   line-height: 80%;
 }
 
-.i-body {
+.i-body,
+.p-body {
   background-image: url(./Assets/blackpaper-hires.jpg);
 }
 
@@ -60,12 +63,12 @@ h2 {
   height: 300px;
   border-radius: 50%;
   box-shadow:
-    inset 0 0 50px whitesmoke,
+    inset 0 0 50px cyan,
     inset 20px 0 80px blue,
     inset -20px 0 80px green,
     inset 20px 0 300px blue,
     inset -20px 0 300px green,
-    0 0 50px whitesmoke,
+    0 0 50px cyan,
     -10px 0 80px blue,
     10px 0 80px green;
 }
@@ -97,6 +100,7 @@ h2 {
   margin: 0px;
 }
 
+.welcome,
 .column {
   text-align: center;
 }
@@ -107,19 +111,27 @@ h2 {
   margin-top: 5px;
   margin-bottom: 5px;
   border: 0;
+  opacity: 25%;
   border-radius: 20px;
-  box-shadow: 0px 0px 40px 0px lightskyblue;
+  box-shadow: 0px 0px 40px 0px cyan;
 }
 
 .column img:hover {
   box-shadow: 0px 0px 100px 0px yellow;
-  opacity: 75%;
+  opacity: 100%;
 }
 
 .footer {
+  margin: auto;
+  background: darkslateblue;
+  width: 80%;
+  border-radius: 20px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 30px 0px cyan;
   position: fixed;
   bottom: 0;
-  width: 65%;
+  text-align: center;
+
 }
 
 /* WHERE THINGS SHRINK */
@@ -130,10 +142,6 @@ h2 {
 
   img {
     width: 40%;
-  }
-
-  .footer {
-    margin-left: 140px;
   }
 }
 
@@ -149,10 +157,6 @@ h2 {
   .row .center {
     display: none;
   }
-
-  .footer {
-    margin-left: 95px;
-  }
 }
 
 /* CELL PHONE SIZE */
@@ -161,5 +165,15 @@ h2 {
   h1,
   .row {
     display: none;
+  }
+
+  .column img {
+    opacity: 60%;
+  }
+
+  .footer {
+    margin-left: 130px;
+    font-size: 12px;
+    font-weight: 100;
   }
 }
