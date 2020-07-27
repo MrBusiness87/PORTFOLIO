@@ -44,6 +44,7 @@
   .wrapper .sidebar ul li a {
     color: #bdb8d7;
     display: block;
+    font-weight: 700;
   }
 
   .wrapper .sidebar ul li a .fas {
@@ -51,7 +52,7 @@
   }
 
   .wrapper .sidebar ul li:hover {
-    background-color: lightblue;
+    background-color: lightslategray;
   }
 
   .wrapper .sidebar ul li:hover a {

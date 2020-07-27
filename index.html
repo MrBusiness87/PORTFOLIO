@@ -7,6 +7,7 @@
   <title>PORTFOLIO</title>
   <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet" href="sidebar.css" />
+
   <div class="navbar">
     <a href="index.html"><img src="Assets/icons8-customer-insights-manager-80.png" style="margin:4px; width:50px;"></a>
     <a href="contact.html"><button>Contact<br><img src="Assets/envelope1.png" style="width: 42%;"></button></a>
@@ -15,12 +16,15 @@
   </div>
   <div class="wrapper">
     <div class="sidebar">
-      <h2>PORTFOLIO:<br>BORJAN BARTULA</h2>
+      <h2>BORJAN<br>BARTULA</h2>
       <ul>
-        <li><a href="index.html">Home<br><img src="Assets/icons8-customer-insights-manager-80.png"
+        <li><a href="index.html">Portfolio<br><img src="Assets/icons8-customer-insights-manager-80.png"
               style="margin:4px; width:50px;"></a></li>
         <li><a href="contact.html">Contact<br><img src="Assets/envelope1.png" style="width: 42%;"></a></li>
         <li><a href="about.html">About<br><img src="Assets/Borjan.jpg" style="width: 28%;"></a></li>
+        <li>
+          <div class="weather"></div>
+        </li>
       </ul>
       <div class="social_media">
         <a href="#"><i class="linkedin"></i></a>
@@ -29,7 +33,7 @@
       </div>
     </div>
     <div class="main_content">
-      <div class="header">HOME PAGE</div>
+      <div class="header">PORTFOLIO WORK</div>
       <br>
       <div class="info">
         <!-- LINKED IN LINK -->
@@ -88,8 +92,9 @@
   </div>
 </head>
 
-<body>
-  <h1>HOME PAGE</h1>
+<body class="i-body">
+  <audio src="./Assets/WIND.mp3" autoplay="autoplay" loop="loop"></audio>
+  <br><br>
   <div class="info">
     <div class="row">
       <!-- LINKED IN LINK -->
@@ -110,19 +115,29 @@
       <div class="column">
         <a href="https://mrbusiness87.github.io/QUIZ-GAME/" target="_blank">
           <img src="Assets/QUIZ thumbnail.png" alt="QUIZ">
-        </a>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+        </a>
+        <canvas style="height:150px; width:400px;"></canvas>
         <!-- WEATHER FORECAST LINK -->
         <a href="https://mrbusiness87.github.io/Weather-Forecaster/" target="_blank">
           <img src="Assets/WEATHER thumbnail.png" alt="WEATHER">
         </a>
       </div>
     </div>
+
+    <div class="row">
+      <div class="center"><br><br><br><br>
+        <h2>PORTFOLIO WORK</h2>
+        <div class="weather"></div>
+      </div>
+    </div>
+
     <div class="row">
       <!-- WORK DAY SCHEDULER -->
       <div class="column">
         <a href="https://mrbusiness87.github.io/Work-Day-Scheduler/" target="_blank">
           <img src="Assets/WORKDAY thumbnail.png" alt="SCHEDULER">
-        </a>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+        </a>
+        <canvas style="height:150px; width:400px;"></canvas>
         <!-- SCRATCH GAME -->
         <a href="https://scratch.mit.edu/projects/389542029" target="_blank">
           <img src="https://i.ytimg.com/vi/9drwiPhf1Vw/maxresdefault.jpg" alt="SCRATCH">
@@ -142,10 +157,14 @@
       </div>
     </div>
   </div>
+  <br>
+
 
 </body>
-
-<!-- <script src="script.js"></script> -->
+<script src="script.js"></script>
+<script src="weather.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBb0CDUuXsKE2EwQDS79oQZXtUoAA77HXc"></script>
 
 </html>
 
