@@ -50,6 +50,8 @@ body {
 }
 
 h2 {
+  /* line-height: 24px; */
+  font-size: 16px;
   color: white;
   text-align: center;
 }
@@ -122,16 +124,14 @@ h2 {
 }
 
 .footer {
-  margin: auto;
+  margin-left: 10%;
   background: darkslateblue;
-  width: 80%;
+  width: 75%;
   border-radius: 20px;
   border-radius: 20px;
   box-shadow: 0px 0px 30px 0px cyan;
   position: fixed;
   bottom: 0;
-  text-align: center;
-
 }
 
 /* WHERE THINGS SHRINK */
