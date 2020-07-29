@@ -49,10 +49,66 @@ body {
   background-color: black;
 }
 
+.aboutside {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.about,
+.achievement {
+  margin: auto;
+  width: 1000px;
+  font-size: 20px;
+}
+
+.achievement span,
+.achievement ul {
+  float: left;
+}
+
+.profilepic img {
+  width: 300px;
+  float: left;
+  margin-right: 30px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 40px 0px cyan;
+}
+
+.cats img {
+  width: 350px;
+  float: right;
+  border-radius: 20px;
+  box-shadow: 0px 0px 40px 0px cyan;
+}
+
+.line1,
+.line2,
+.line3 {
+  text-align: center;
+}
+
+.line1 {
+  font-size: 60px;
+  color: green;
+}
+
+.line2 {
+  font-size: 50px;
+  color: lightgreen;
+}
+
+.line3 {
+  font-size: 40px;
+}
+
 h2 {
   /* line-height: 24px; */
   font-size: 16px;
   color: white;
+  text-align: center;
+}
+
+.parts {
   text-align: center;
 }
 
@@ -123,21 +179,15 @@ h2 {
   opacity: 100%;
 }
 
-.footer {
-  margin-left: 10%;
-  background: darkslateblue;
-  width: 75%;
-  border-radius: 20px;
-  border-radius: 20px;
-  box-shadow: 0px 0px 30px 0px cyan;
-  position: fixed;
-  bottom: 0;
-}
-
 /* WHERE THINGS SHRINK */
 @media (max-width: 1500px) {
   .card {
     max-width: 80%;
+  }
+
+  .about {
+    max-width: 800px;
+    font-size: 18px;
   }
 
   img {
@@ -157,13 +207,35 @@ h2 {
   .row .center {
     display: none;
   }
+
+  .about {
+    max-width: 650px;
+    font-size: 14px;
+  }
+
+  .line1 {
+    font-size: 50px;
+    color: green;
+  }
+
+  .line2 {
+    font-size: 40px;
+    color: lightgreen;
+  }
+
+  .line3 {
+    font-size: 30px;
+  }
 }
 
 /* CELL PHONE SIZE */
 @media (max-width: 500px) {
 
   h1,
-  .row {
+  .row,
+  .achievement span,
+  .achievement ul,
+  .achievement .cats {
     display: none;
   }
 
@@ -171,9 +243,49 @@ h2 {
     opacity: 60%;
   }
 
-  .footer {
-    margin-left: 130px;
-    font-size: 12px;
-    font-weight: 100;
+  p,
+  .parts {
+    margin-left: 120px;
+  }
+
+  .about {
+    display: none;
+  }
+
+  .profilepic img {
+    width: 100px;
+    float: left;
+    margin-right: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 0px cyan;
+  }
+
+  .cats img {
+    width: 200px;
+    float: left;
+    margin-left: 60px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 40px 0px cyan;
+  }
+
+  .line1,
+  .line2,
+  .line3 {
+    margin-left: 120px;
+    text-align: center;
+  }
+
+  .line1 {
+    font-size: 40px;
+    color: green;
+  }
+
+  .line2 {
+    font-size: 30px;
+    color: lightgreen;
+  }
+
+  .line3 {
+    font-size: 20px;
   }
 }
