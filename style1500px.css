@@ -1,0 +1,15 @@
+@media (max-width: 1500px) {
+  .card {
+    max-width: 80%;
+  }
+
+  .about,
+  .achievement {
+    max-width: 800px;
+    font-size: 18px;
+  }
+
+  img {
+    width: 40%;
+  }
+}

@@ -1,0 +1,79 @@
+@media (max-width: 1000px) {
+
+  .i-body,
+  .p-body {
+    background-image: url(./Assets/ligthblue-hires.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw;
+  }
+
+  .column img {
+    opacity: 45%;
+  }
+
+  .weather {
+    display: none;
+  }
+
+  .row .center {
+    top: calc(50% - 150px);
+    left: calc(50% - 150px);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    box-shadow: inset 0 0 50px cyan, inset 20px 0 80px blue,
+      inset -20px 0 80px green, inset 20px 0 300px blue, inset -20px 0 300px green,
+      0 0 50px cyan, -10px 0 80px blue, 10px 0 80px green;
+  }
+
+  .row .center:hover {
+    box-shadow: inset 0 0 50px gray, inset 20px 0 80px purple,
+      inset -20px 0 80px yellow, inset 20px 0 300px purple,
+      inset -20px 0 300px yellow, 0 0 50px gray, -10px 0 80px purple,
+      10px 0 80px yellow;
+  }
+
+  .card {
+    max-width: 80%;
+  }
+
+  canvas {
+    display: none;
+  }
+
+  .about,
+  .achievement {
+    max-width: 650px;
+    font-size: 14px;
+  }
+
+  .profilepic img {
+    width: 30%;
+    float: left;
+    margin-right: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 0px cyan;
+  }
+
+  .cats img {
+    width: 300px;
+    float: left;
+    margin-left: 60px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 40px 0px cyan;
+  }
+
+  .line1 {
+    font-size: 50px;
+    color: green;
+  }
+
+  .line2 {
+    font-size: 40px;
+    color: lightgreen;
+  }
+
+  .line3 {
+    font-size: 30px;
+  }
+}
