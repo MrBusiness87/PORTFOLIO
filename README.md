@@ -31,38 +31,17 @@ This is my new and revised portfolio. Created from scratch with no help of any C
 
 ## Links:
 
-<!-- ROW1 -->
+|                                                                                           |                                                                                       |                                                                                          |     |
+| ----------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- | --- |
+| <img src="./assets/thumbnails/LINKEDIN thumbnail.jpg" style="height:100px; width: 200px"> | <img src="./assets/thumbnails/QUIZ thumbnail.png" style="height:100px; width: 200px"> | <img src="./assets/thumbnails/WEATHER thumbnail.png" style="height:100px; width: 200px"> |
+| Deployed Link: [LINKED IN!](https://www.linkedin.com/in/BorjanBartula)                    | Deployed Link: [QUIZ GAME](https://mrbusiness87.github.io/QUIZ-GAME/)                 | Deployed Link: [WEATHER APP](https://mrbusiness87.github.io/WEATHER_thumbnail.png)       |
+|                                                                                           | Repository Link: [QUIZ GAME](https://github.com/MrBusiness87/QUIZ-GAME)               | Repository Link: [WEATHER APP](https://github.com/MrBusiness87/Weather-Forecaster)       |
+| <img src="./assets/thumbnails/WORKDAY thumbnail.png" style="height:100px; width: 200px">  | <img src="./assets/thumbnails/SF-thumbnail.jpg" style="height:100px; width: 200px">   | <img src="./assets/thumbnails/Project2.png" style="height:100px; width: 200px;">         |
+| Deployed Link: [SCHEDULER APP](https://mrbusiness87.github.io/Work-Day-Scheduler/)        | Deployed Link: [SPORTS FINDER](https://mrbusiness87.github.io/Finder-Project1/)       | Deployed Link: [YOUR KITCHEN](https://your-kitchen.herokuapp.com/)                       |
+| Repository Link: [SCHEDULER APP](https://github.com/MrBusiness87/Work-Day-Scheduler)      | Repository Link: [SPORTS FINDER](https://github.com/MrBusiness87/Finder-Project1)     | Repository Link: [YOUR KITCHEN](https://github.com/MrBusiness87/Your_Kitchen)            |
 
-| | | | |
-
-<!-- ROW2 -->
-
-| --- | --- | --- | --- |
-
-<!-- ROW3 -->
-
-| <img src="./assets/thumbnails/QUIZ thumbnail.png" style="height:100px; width: 200px"> | <img src="./assets/thumbnails/WEATHER thumbnail.png" style="height:100px; width: 200px"> | | |
-
-<!-- ROW4 -->
-
-| Deployed Link: [QUIZ GAME](https://mrbusiness87.github.io/QUIZ-GAME/) | Deployed Link: [WEATHER APP](https://mrbusiness87.github.io/WEATHER_thumbnail.png) | | |
-
-<!-- ROW5 -->
-
-| A Game where it asks you a few basic questions. Depending on your answers you will get a score accordingly. | An application which displays the Weather Forecast for the city entered in the search. This project uses an API called Open Weather Map. | | |
-
-<!-- ROW6 -->
-
-| <img src="./assets/thumbnails/WORKDAY thumbnail.png" style="height:100px; width: 200px"> | <img src="./assets/thumbnails/SF-thumbnail.jpg" style="height:100px; width: 200px"> | | |
-
-<!-- ROW7 -->
-
-| Deployed Link: [SCHEDULER APP](https://mrbusiness87.github.io/Work-Day-Scheduler/) | Deployed Link: [SPORTS FINDER](https://mrbusiness87.github.io/Finder-Project1/) | | |
-
-<!-- ROW8 -->
-
-| This app is to help you plan out your day. Information can be entered and changed, plus it will show you what time block you are working in. | The SPORTS FINDER app is an app that finds events for the city entered in the search. This was a first group project. | | |
 <br>
+Click <a href="./assets/RESUME Coding.pdf" download>HERE</a> to Download My RESUME
 
 ## License:
 
