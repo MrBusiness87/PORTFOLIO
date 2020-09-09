@@ -2,6 +2,26 @@
   font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
+/* unvisited link */
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: lightgreen;
+}
+
+/* mouse over link */
+a:hover {
+  color: yellow;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+
 .wrapper {
   display: none;
 }
@@ -38,7 +58,7 @@ button {
 
 .i-body,
 .p-body {
-  background-image: url(./Assets/blackpaper-hires.jpg);
+  background-image: url(./assets/background/blackpaper-hires.jpg);
 }
 
 body {

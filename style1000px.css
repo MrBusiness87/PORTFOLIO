@@ -2,9 +2,7 @@
 
   .i-body,
   .p-body {
-    background-image: url(./Assets/ligthblue-hires.jpg);
-    background-repeat: no-repeat;
-    background-size: 100vw;
+    background-image: url(./assets/background/blackpaper-hires.jpg);
   }
 
   .column img {
