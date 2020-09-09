@@ -31,12 +31,33 @@ This is my new and revised portfolio. Created from scratch with no help of any C
 
 ## Links:
 
-|                                                                                           |                                                                                       |                                                                                          |     |
+<!-- ROW1 -->
+
+| | | | |
+
+<!-- ROW2 -->
+
 | ----------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- | --- |
-| <img src="./assets/thumbnails/LINKEDIN thumbnail.jpg" style="height:100px; width: 200px"> | <img src="./assets/thumbnails/QUIZ thumbnail.png" style="height:100px; width: 200px"> | <img src="./assets/thumbnails/WEATHER thumbnail.png" style="height:100px; width: 200px"> |
-| Click this Link: [LINKED IN!](https://www.linkedin.com/in/BorjanBartula)                  | Click this Link: [QUIZ GAME](https://mrbusiness87.github.io/QUIZ-GAME/)               | Click this Link: [WEATHER APP](https://mrbusiness87.github.io/WEATHER_thumbnail.png)     |
-| <img src="./assets/thumbnails/WORKDAY thumbnail.png" style="height:100px; width: 200px">  | <img src="./assets/thumbnails/SF-thumbnail.jpg" style="height:100px; width: 200px">   |
-| Click this Link: [SCHEDULER APP](https://mrbusiness87.github.io/Work-Day-Scheduler/)      | Click this Link: [SPORTS FINDER](https://mrbusiness87.github.io/Finder-Project1/)     |
+
+<!-- ROW3 -->
+
+| <img src="./assets/thumbnails/LINKEDIN thumbnail.jpg" style="height:100px; width: 200px"> | | |
+
+<!-- ROW4 -->
+
+<img src="./assets/thumbnails/QUIZ thumbnail.png" style="height:100px; width: 200px"> | <img src="./assets/thumbnails/WEATHER thumbnail.png" style="height:100px; width: 200px"> |
+
+<!-- ROW5 -->
+
+| Deployed Link: [LINKED IN!](https://www.linkedin.com/in/BorjanBartula) | Deployed Link: [QUIZ GAME](https://mrbusiness87.github.io/QUIZ-GAME/) | Deployed Link: [WEATHER APP](https://mrbusiness87.github.io/WEATHER_thumbnail.png) |
+
+<!-- ROW6 -->
+
+| <img src="./assets/thumbnails/WORKDAY thumbnail.png" style="height:100px; width: 200px"> | <img src="./assets/thumbnails/SF-thumbnail.jpg" style="height:100px; width: 200px"> |
+
+<!-- ROW7 -->
+
+| Deployed Link: [SCHEDULER APP](https://mrbusiness87.github.io/Work-Day-Scheduler/) | Deployed Link: [SPORTS FINDER](https://mrbusiness87.github.io/Finder-Project1/) |
 
 <br>
 
