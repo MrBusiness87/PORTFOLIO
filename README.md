@@ -47,6 +47,10 @@ Click <a href="./assets/RESUME Coding.pdf" download>HERE</a> to Download My RESU
 
 License None: <br>When there is no license there is no copyright, except the one you create yourself.
 
+## Additional Notes:
+
+Each project has a description in it's repository link for what was done on the project and which technologies are used.
+
 ---
 
 ## Questions:
