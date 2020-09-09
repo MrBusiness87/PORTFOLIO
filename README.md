@@ -45,20 +45,31 @@ This is my new and revised portfolio. Created from scratch with no help of any C
 
 <!-- ROW4 -->
 
-<img src="./assets/thumbnails/QUIZ thumbnail.png" style="height:100px; width: 200px"> | <img src="./assets/thumbnails/WEATHER thumbnail.png" style="height:100px; width: 200px"> |
+| Deployed Link: [LINKED IN!](https://www.linkedin.com/in/BorjanBartula) | | |
 
 <!-- ROW5 -->
 
-| Deployed Link: [LINKED IN!](https://www.linkedin.com/in/BorjanBartula) | Deployed Link: [QUIZ GAME](https://mrbusiness87.github.io/QUIZ-GAME/) | Deployed Link: [WEATHER APP](https://mrbusiness87.github.io/WEATHER_thumbnail.png) |
+| <img src="./assets/thumbnails/QUIZ thumbnail.png" style="height:100px; width: 200px"> | <img src="./assets/thumbnails/WEATHER thumbnail.png" style="height:100px; width: 200px"> |
 
 <!-- ROW6 -->
 
-| <img src="./assets/thumbnails/WORKDAY thumbnail.png" style="height:100px; width: 200px"> | <img src="./assets/thumbnails/SF-thumbnail.jpg" style="height:100px; width: 200px"> |
+| Deployed Link: [QUIZ GAME](https://mrbusiness87.github.io/QUIZ-GAME/) | Deployed Link: [WEATHER APP](https://mrbusiness87.github.io/WEATHER_thumbnail.png) | |
 
 <!-- ROW7 -->
 
+| A Game where it asks you a few basic questions. Depending on your answers you will get a score accordingly. | An application which displays the Weather Forecast for the city entered in the search. This project uses an API called Open Weather Map. | |
+
+<!-- ROW8 -->
+
+| <img src="./assets/thumbnails/WORKDAY thumbnail.png" style="height:100px; width: 200px"> | <img src="./assets/thumbnails/SF-thumbnail.jpg" style="height:100px; width: 200px"> |
+
+<!-- ROW8 -->
+
 | Deployed Link: [SCHEDULER APP](https://mrbusiness87.github.io/Work-Day-Scheduler/) | Deployed Link: [SPORTS FINDER](https://mrbusiness87.github.io/Finder-Project1/) |
 
+<!-- ROW9 -->
+
+| This app is to help you plan out your day. Information can be entered and changed, plus it will show you what time block you are working in. | The SPORTS FINDER app is an app that finds events for the city entered in the search. This was a first group project. | |
 <br>
 
 ## License:
