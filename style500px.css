@@ -2,8 +2,9 @@
 
   .i-body,
   .p-body {
-    background-image: url(./Assets/nebula-hires.jpg);
+    background-image: url(./Assets/darkblue-hires.jpg);
     background-repeat: no-repeat;
+    max-height: 1200px;
     background-size: cover;
   }
 
@@ -12,6 +13,10 @@
   .achievement span,
   .achievement ul,
   .achievement .cats {
+    display: none;
+  }
+
+  .center {
     display: none;
   }
 

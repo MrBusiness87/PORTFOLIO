@@ -1,15 +1,39 @@
-@media (max-width: 1500px) {
+  /* unvisited link */
+  a:link {
+    color: red;
+  }
+
+  /* visited link */
+  a:visited {
+    color: lightgreen;
+  }
+
+  /* mouse over link */
+  a:hover {
+    color: yellow;
+  }
+
+  /* selected link */
+  a:active {
+    color: blue;
+  }
+
   .card {
     max-width: 80%;
   }
 
   .about,
   .achievement {
-    max-width: 800px;
+    width: 800px;
     font-size: 18px;
   }
 
-  img {
-    width: 40%;
+  .profilepic img {
+    width: 45%;
+    float: left;
   }
-}
+
+  .cats img {
+    width: 50%;
+    float: right;
+  }
