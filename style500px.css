@@ -2,8 +2,7 @@
 
   .i-body,
   .p-body {
-    background-image: url(./Assets/darkblue-hires.jpg);
-    background-repeat: no-repeat;
+    background-image: url(./assets/background/darkblue-hires.jpg);
     max-height: 1200px;
     background-size: cover;
   }
@@ -22,6 +21,7 @@
 
   .column img {
     opacity: 60%;
+    box-shadow: 0px 0px 20px 0px cyan;
   }
 
   p,

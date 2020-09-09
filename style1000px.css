@@ -2,7 +2,8 @@
 
   .i-body,
   .p-body {
-    background-image: url(./assets/background/blackpaper-hires.jpg);
+    background-image: url(./assets/background/granitebrick-hires.jpg);
+    background-size: cover;
   }
 
   .column img {
