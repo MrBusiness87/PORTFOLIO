@@ -6,6 +6,12 @@
     background-size: cover;
   }
 
+  .row .column {
+    width: 800px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
   .column img {
     opacity: 45%;
   }
