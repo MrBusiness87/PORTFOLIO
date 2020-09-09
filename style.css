@@ -57,7 +57,8 @@ button {
 }
 
 .i-body,
-.p-body {
+.p-body,
+.n-body {
   background-image: url(assets/background/blackpaper-hires.jpg);
 }
 
@@ -75,9 +76,11 @@ body {
 }
 
 .about,
-.achievement {
-  margin: auto;
-  width: 1500px;
+.achievement,
+.node {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1000px;
   font-size: 20px;
 }
 
@@ -94,11 +97,29 @@ body {
   box-shadow: 0px 0px 40px 0px cyan;
 }
 
-.cats img {
+.cats .static {
+  opacity: 100;
+  z-index: 1;
+}
+
+.cats .active {
+  opacity: 0;
+  z-index: 0;
+}
+
+.cats .static,
+.cats .active {
   width: 350px;
-  float: right;
   border-radius: 20px;
   box-shadow: 0px 0px 40px 0px cyan;
+}
+
+.cats .static:hover {
+  opacity: 0;
+}
+
+.cats .active:hover {
+  opacity: 100;
 }
 
 .line1,
@@ -122,8 +143,7 @@ body {
 }
 
 h2 {
-  /* line-height: 24px; */
-  font-size: 16px;
+  font-size: 28px;
   color: white;
   text-align: center;
 }
@@ -186,4 +206,16 @@ h2 {
 .column img:hover {
   box-shadow: 0px 0px 100px 0px yellow;
   opacity: 100%;
+}
+
+.node .left {
+  float: left;
+  width: 200px;
+  margin-left: -100px;
+}
+
+.node .right {
+  float: right;
+  width: 200px;
+  margin-right: 5px;
 }
