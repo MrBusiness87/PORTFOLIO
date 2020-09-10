@@ -80,16 +80,23 @@ body {
 .node {
   margin-left: auto;
   margin-right: auto;
-  width: 1000px;
+  width: 1200px;
   font-size: 20px;
 }
 
 .achievement span,
 .achievement ul {
   float: left;
+  width: 300px;
 }
 
-.profilepic img {
+.achievement .cats img {
+  width: 400px;
+  float: right;
+}
+
+.profilepic img,
+.cats img {
   width: 300px;
   float: left;
   margin-right: 30px;
@@ -97,7 +104,7 @@ body {
   box-shadow: 0px 0px 40px 0px cyan;
 }
 
-.cats .static {
+/* .cats .static {
   opacity: 100;
   z-index: 1;
 }
@@ -120,7 +127,7 @@ body {
 
 .cats .active:hover {
   opacity: 100;
-}
+} */
 
 .line1,
 .line2,

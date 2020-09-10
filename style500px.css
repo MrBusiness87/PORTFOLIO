@@ -42,8 +42,12 @@
     box-shadow: 0px 0px 20px 0px cyan;
   }
 
-  .cats img {
+  .cats {
     width: 200px;
+  }
+
+  .cats img {
+    width: 150px;
     float: left;
     margin-left: 60px;
     border-radius: 20px;
